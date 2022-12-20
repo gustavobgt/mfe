@@ -20,7 +20,7 @@ const App = () => {
 
           <MarketingApp />
         </div>
-      </StylesProvider>{" "}
+      </StylesProvider>
     </BrowserRouter>
   );
 };

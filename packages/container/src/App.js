@@ -29,10 +29,10 @@ const App = () => {
 
           <Suspense fallback={<Progress />}>
             <Switch>
-              <Route exact path="/auth">
+              <Route path="/auth">
                 <AuthLazy onSignIn={() => setIsSignedIn(true)} />
               </Route>
-              <Route exact path="/" component={MarketingLazy} />
+              <Route path="/" component={MarketingLazy} />
             </Switch>
           </Suspense>
         </div>
